@@ -100,6 +100,103 @@ footer{
 .article-text{
 	width: 100%;
 }
+@keyframes rotate{
+        0%{
+        position: relative;
+        right: 0%;
+        top: 0%;
+        transform: rotateZ(0deg);
+    }
+    10%{
+        position: relative;
+        right: 10%;
+        top: 10%;
+        transform: rotateZ(-40deg);
+    }
+    20%{
+        position:relative;
+        right: 20%;
+        top: -10%;
+        transform: rotateZ(20deg);
+        
+    }
+    30%{
+        position: relative;
+        right: 30%;
+        top: 10%;
+        transform: rotateZ(-40deg);
+        
+      
+    }
+    40%{
+        position: relative;
+        right: 40%;
+        top: -10%;
+        transform: rotateZ(20deg);
+        
+    }
+    50%{
+        position: relative;
+        right: 50%;
+        top: 10%;
+        transform: rotateZ(-40deg);
+        
+    }
+    60%{
+        position: relative;
+        right: 60%;
+        top: -10%;
+        transform: rotateZ(20deg);
+    }
+    70%{
+        position: relative;
+        right: 70%;
+        top: 10%;
+        transform: rotateZ(-40deg);
+    }
+    80%{
+        position:relative;
+        right: 80%;
+        top: -10%;
+        transform: rotateZ(20deg);
+        
+    }
+    90%{
+        position: relative;
+        right: 50%;
+        top: -10%;
+        transform: rotateZ(40deg);
+      
+    }
+    100%{
+        position: relative;
+        right: 0%;
+        top: 10%;
+        transform: rotateZ(-20deg);
+    }
+    
+}
+.img{
+    position: relative;
+    top: 50px;
+    height: 200px;
+    width: 300px;
+    animation-name: rotate;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+.d1{
+    margin: auto;
+    margin-top: 5%;
+    width: 100%;
+    height: 350px;
+    border-radius:10% 100% 500% 400%;
+    display: grid;
+    justify-items: end;
+    
+}
 .article-part__text{
 	width: 100%;
 	font-family: fantasy;
