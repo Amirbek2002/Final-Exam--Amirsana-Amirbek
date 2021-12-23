@@ -27,5 +27,10 @@ Font sizes:
     <src script="../Scripts/siteScript.js "></script>
 #My site is for a person who is engaged in sales and such things. 
 
+#auxiliary sites:
+URL(https://watchshop.kz/collection/mens);
+-for icons:
+URL(https://icons8.com/icons);
+
 
 #Problems arose when changing the width under different types of screens. Then the blocks were jumping back and forth. Then the pictures didn't look right when the changes were made.
